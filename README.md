@@ -89,7 +89,7 @@ There are a few parameters of **PTT-LDAvis**:
 And, run the command in R:
 
 ```s
-source("PTT_LDAvis")
+source("PTT_LDAvis.R")
 ```
 
 ## Output
