@@ -20,15 +20,15 @@ It can also represent the trend of documents or news.
 
 **PTT-LDAvis** is built by R and using following packages:
 
-*topicmodels
-*tm
-*tmcn
-*jiebaR
-*RJSONIO
-*ggplot2
-*gridExtra
-*wordcloud
-*LDAvis
+* topicmodels
+* tm
+* tmcn
+* jiebaR
+* RJSONIO
+* ggplot2
+* gridExtra
+* wordcloud
+* LDAvis
 
 This script will use **pkgLoad** to download package if it doesn't exist.
 
@@ -79,12 +79,12 @@ You can use my sample data or my **PTT-Crawler** to crawling from PTT.
 
 There are a few parameters of **PTT-LDAvis**:
 
-*source_dir: The path of source data.
-*article_num: The number of article(including pushes) you want to use. (Default: the numbers in source_dir)
-*load_push: If you want to use pushes as your data, set it to TRUE. If not, set as FALSE. (Default: FALSE)
-*segment_user_dict_path: The path of user defined dictionary. You can also add new terms yourself. (Default: NULL)
-*k: The number of topics you want LDA to separate into.
-*show_num: This number will be used at showing term frequency, the top term of topics, and LDAvis.
+* source_dir: The path of source data.
+* article_num: The number of article(including pushes) you want to use. (Default: the numbers in source_dir)
+* load_push: If you want to use pushes as your data, set it to TRUE. If not, set as FALSE. (Default: FALSE)
+* segment_user_dict_path: The path of user defined dictionary. You can also add new terms yourself. (Default: NULL)
+* k: The number of topics you want LDA to separate into.
+* show_num: This number will be used at showing term frequency, the top term of topics, and LDAvis.
 
 And, run the command in R:
 
@@ -96,7 +96,7 @@ source("PTT_LDAvis")
 
 **PTT-LDAvis** will output some data:
 
-*Term_Freq_Top.png: Showing the term frequency of top n(show_num).
-*Topic_Word_Top.png: Showing the top n(show_num) term of topics.
-*Word_Cloud.png: The word cloud.
-*LDAvis: The result of LDA and visualization. Use index.html to check the result on browser.
+* Term_Freq_Top.png: Showing the term frequency of top n(show_num).
+* Topic_Word_Top.png: Showing the top n(show_num) term of topics.
+* Word_Cloud.png: The word cloud.
+* LDAvis: The result of LDA and visualization. Use index.html to check the result on browser.
