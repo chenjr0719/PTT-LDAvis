@@ -2,6 +2,8 @@
 
 Using LDAvis to visualize the LDA model of PTT.
 
+Live Demo: http://chenjr-jacob.no-ip.org:8080/LDAvis/
+
 ## What is PTT?
 
 **PTT** is the biggest BBS site in Taiwan.
