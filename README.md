@@ -2,7 +2,7 @@
 
 Using LDAvis to visualize the LDA model of PTT.
 
-Live Demo: http://chenjr-jacob.no-ip.org:8080/LDAvis/
+Live Demo: https://chenjr0719.github.io/PTT-LDAvis/
 
 ## What is PTT?
 
