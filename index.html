@@ -5,10 +5,24 @@
     <title>LDAvis</title>
     <script src="d3.v3.js"></script>
     <script src="ldavis.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="lda.css">
+
   </head>
 
   <body>
+    <div id="links" class="row">
+        <div id="wordpress_link" class="col-md-2 col-sm-3">
+            <a href="http://chenjr-jacob.idv.tw" class="btn btn-primary btn-lg">Jacob's Learning Notes</a>
+        </div>
+
+        <div id="github_link" class="col-md-2 col-sm-3">
+            <a href="https://github.com/chenjr0719" class="btn btn-success btn-lg">Jacob's GitHub</a>
+        </div>
+    </div>
+    
+    
     <div id = "lda"></div>
     <script>
       var vis = new LDAvis("#lda", "lda.json");

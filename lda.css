@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+
 path {
   fill: none;
   stroke: none;
@@ -18,6 +21,6 @@ path {
 }
 
 text {
-    font-family: sans-serif;
+    font-family: 'cwTeXHei', 'Noto Sans', sans-serif;
     font-size: 11px;
 }
